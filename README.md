@@ -3,23 +3,23 @@ Each script in the /src directory corresponds to a distinct model configuration,
 
 Repository Structure
 
-├── src/
+	src/
 
-   	├── model1.py
+   		├── model1.py
 
-   	├── model2.py
+   		├── model2.py
 
-   	├── model3.py
+   		├── model3.py
 
-   	├── model4.py
+   		├── model4.py
 
-   	├── model5.py
+   		├── model5.py
 
 
-├── data/
+	data/
 
-│   └── sample_malimg/        # small subset (e.g., 10 benign, 10 malware images)
-│
+   └── sample_malimg/        # small subset (e.g., 10 benign, 10 malware images)
+
 └── README.md
 
 
