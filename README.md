@@ -1,4 +1,4 @@
-This repository accompanies the article When β Learns to Adapt: Stabilizing Variational Ensembles for Visual Malware Detection and provides minimal, reproducible examples of the five models described in the study.
+This repository accompanies the article "When β Learns to Adapt: Stabilizing Variational Ensembles for Visual Malware Detection" and provides minimal, reproducible examples of the five models described in the study.
 Each script in the /src directory corresponds to a distinct model configuration, incrementally extending the baseline CNN architecture with feature-fusion, autoencoding, and adaptive β-VAE mechanisms.
 
 Repository Structure
