@@ -16,7 +16,7 @@ Repository Structure
    		├── model5.py
 
 
-	data/sample_malimg/
+	data/
 
 	README.md
 
