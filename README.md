@@ -17,6 +17,8 @@ Repository Structure
 
 
 	data/
+		├── training
+		├── validation
 
 	README.md
 
