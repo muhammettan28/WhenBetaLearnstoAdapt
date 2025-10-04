@@ -3,6 +3,7 @@ Each script in the /src directory corresponds to a distinct model configuration,
 
 Repository Structure
 ├── src/
+
 │   ├── model1.py
 
 │   ├── model2.py
@@ -15,6 +16,7 @@ Repository Structure
 
 │
 ├── data/
+
 │   └── sample_malimg/        # small subset (e.g., 10 benign, 10 malware images)
 │
 └── README.md
