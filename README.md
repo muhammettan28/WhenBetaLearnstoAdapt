@@ -18,7 +18,7 @@ Repository Structure
 
 	data/sample_malimg/
 
-└── README.md
+	README.md
 
 
 
