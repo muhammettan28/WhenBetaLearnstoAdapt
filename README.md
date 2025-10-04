@@ -16,9 +16,7 @@ Repository Structure
    		├── model5.py
 
 
-	data/
-
-   └── sample_malimg/        # small subset (e.g., 10 benign, 10 malware images)
+	data/sample_malimg/
 
 └── README.md
 
