@@ -68,12 +68,6 @@ Additional refinements include:
 	•	Increased dropout (0.3) for stronger regularization in large feature spaces.
 
 ⸻
+🔗 License
 
-🧩 Training Settings
-	•	Image resolution: 224 × 224 px
-	•	Batch size: 32
-	•	Optimizer: Adam (initial learning rate = 1e-4)
-	•	Loss: Categorical cross-entropy
-	•	Monitoring metric: Validation loss
-	•	Early stopping patience: 5 epochs
-	•	Epoch limit: 150
+This code is released for academic and research purposes only under the MIT License.
