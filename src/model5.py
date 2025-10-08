@@ -77,13 +77,13 @@ def train_model(latent_dim, beta_final):
     ConvNeXtLarge = tf.keras.applications.ConvNeXtLarge(input_shape=(224,224,3), include_top=False, weights="imagenet")
     VGG19        = tf.keras.applications.VGG19(input_shape=(224,224,3), include_top=False, weights="imagenet")
     VGG16        = tf.keras.applications.VGG16(input_shape=(224,224,3), include_top=False, weights="imagenet")
-    mobilenet = tf.keras.applications.MobileNetV2(input_shape=(224, 224, 3), include_top=False, weights='imagenet')
+    Xception     = tf.keras.applications.Xception(input_shape=(224,224,3), include_top=False, weights="imagenet")
     ResNet50     = tf.keras.applications.ResNet50(input_shape=(224,224,3), include_top=False, weights="imagenet")
-    for m in [ConvNeXtLarge,VGG19,VGG16,mobilenet,ResNet50]:
+    for m in [ConvNeXtLarge,VGG19,VGG16,Xception,ResNet50]:
         m.trainable = False
 
     inp  = tf.keras.Input(shape=(224,224,3))
-    outs = [m(inp, training=False) for m in [ConvNeXtLarge,VGG19,VGG16,mobilenet,ResNet50]]
+    outs = [m(inp, training=False) for m in [ConvNeXtLarge,VGG19,VGG16,Xception,ResNet50]]
 
     # Downsampling with GAP
     outs = [layers.GlobalAveragePooling2D()(o) for o in outs]
